@@ -1,4 +1,5 @@
 {
+  "homepage": "https://TRFielder.github.io",
   "name": "trfielder.github.io",
   "version": "1.0.0",
   "description": "Personal portfolio site",
@@ -6,7 +7,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/TRFielder/TRFielder.github.io/issues"
   },
-  "homepage": "https://github.com/TRFielder/TRFielder.github.io#readme",
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
