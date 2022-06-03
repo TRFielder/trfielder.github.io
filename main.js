@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("const HelloWorld = document.createElement(\"div\")\nHelloWorld.textContent = \"Hello, world!\";\n\ndocument.body.appendChild(HelloWorld);\n\n//# sourceURL=webpack://trfielder.github.io/./src/index.js?");
+eval("const HelloWorld = document.createElement(\"div\");\nHelloWorld.textContent = \"Hello, World!\";\n\ndocument.body.appendChild(HelloWorld);\n\n\n//# sourceURL=webpack://trfielder.github.io/./src/index.js?");
 
 /***/ })
 
