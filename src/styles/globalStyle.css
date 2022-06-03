@@ -46,7 +46,7 @@ h1.Hero-name {
   margin: 0;
   opacity: 0;
   animation: fade-in 2s forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
   position: relative;
 }
 
@@ -56,14 +56,14 @@ h2 {
   user-select: none;
   margin: 0;
   animation: fade-in 2s forwards;
-  animation-delay: 4s;
+  animation-delay: 2s;
   position: relative;
 }
 
 .hero-aboutme-button {
   opacity: 0;
   animation: fade-in 2s forwards;
-  animation-delay: 6s;
+  animation-delay: 3s;
   position: relative;
   width: 150px;
   appearance: button;
