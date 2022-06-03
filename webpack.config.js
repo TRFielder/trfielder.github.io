@@ -13,7 +13,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       hash: true,
-      title: "Tom Fielder",
+      title: "Tom Fielder, Full Stack Developer",
       header: "Tom Fielder",
       metaDesc: "Tom Fielder portfolio site",
       filename: "index.html",
@@ -21,6 +21,18 @@ module.exports = {
       template: "src/index.html",
     }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
   devServer: {
     static: "./dist",
     open: true,

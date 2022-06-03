@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Kanit;
+  src: url(https://fonts.gstatic.com/s/kanit/v12/nKKZ-Go6G5tXcraVGwA.woff2)
+    format("woff2");
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    bottom: -100px;
+  }
+  to {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+html {
+  background-color: #191919;
+  overflow-x: hidden;
+}
+
+.Hero {
+  background-color: white;
+  text-align: center;
+}
+
+h1.Hero-name {
+  color: black;
+  font-family: Kanit;
+  text-transform: uppercase;
+  font-size: 128px;
+  user-select: none;
+  margin: 0;
+  opacity: 0;
+  animation: fade-in 2s forwards;
+  animation-delay: 2s;
+  position: relative;
+}
+
+h2 {
+  opacity: 0;
+  font-family: Kanit;
+  font-size: 96px;
+  user-select: none;
+  margin: 0;
+  animation: fade-in 2s forwards;
+  animation-delay: 4s;
+  position: relative;
+}
+
+.hero-aboutme-button {
+  opacity: 0;
+  animation: fade-in 2s forwards;
+  animation-delay: 6s;
+  position: relative;
+}
