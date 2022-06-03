@@ -21,6 +21,7 @@
     "url": "https://github.com/TRFielder/TRFielder.github.io/issues"
   },
   "devDependencies": {
+    "cname-webpack-plugin": "^3.0.0",
     "css-loader": "^6.7.1",
     "eslint": "^8.16.0",
     "eslint-config-airbnb": "^19.0.4",
