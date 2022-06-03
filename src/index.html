@@ -10,10 +10,42 @@
     />
   </head>
   <body>
-    <section class="Hero">
+    <section class="Hero" id="Home">
       <h1 class="Hero-name"><%= htmlWebpackPlugin.options.header %></h1>
       <h2>Full Stack Web Developer</h2>
-      <button class="hero-aboutme-button">Learn about me</button>
+      <a href="#About" class="hero-aboutme-button">Find out more</a>
+    </section>
+    <section class="site-content" id="site-content">
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Projects">Projects</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <section id="About">
+        <article>
+          <h3>About Me</h3>
+          <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiis praesentium voluptatum deleniti atque corrupti quos
+            dolores et quas molestias excepturi sint occaecati cupiditate non
+            provident, similique sunt in culpa qui officia deserunt mollitia
+            animi, id est laborum et dolorum fuga.
+          </p>
+        </article>
+      </section>
+      <section id="Projects">Projects</section>
+      <section id="Contact">Contact</section>
     </section>
   </body>
 </html>
