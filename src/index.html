@@ -2,16 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Tom Fielder</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Tom Fielder portfolio site"
+      content="<%= htmlWebpackPlugin.options.metaDesc%>"
     />
   </head>
   <body>
-    <h1>Tom Fielder</h1>
+    <h1><%= htmlWebpackPlugin.options.header %></h1>
     <p>This is some placeholder text</p>
     <p>here is some more</p>
-  <script defer src="main.js?0f838e8cefe6839d5c5b"></script></body>
+  </body>
 </html>
