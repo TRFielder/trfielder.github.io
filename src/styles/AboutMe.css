@@ -1,0 +1,41 @@
+i {
+  font-size: 48px;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-container > * {
+  margin: 20px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  article {
+    width: 50%;
+  }
+
+  .about-me-container {
+    flex-direction: row;
+  }
+
+  .about-me-container > * {
+    margin: 0 20px;
+  }
+
+  i {
+    font-size: 72px;
+  }
+
+  .text-block {
+    font-size: 20px;
+    font-weight: 200;
+  }
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}

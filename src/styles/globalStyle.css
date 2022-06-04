@@ -1,8 +1,4 @@
-@font-face {
-  font-family: Kanit;
-  src: url(https://fonts.gstatic.com/s/kanit/v12/nKKZ-Go6G5tXcraVGwA.woff2)
-    format("woff2");
-}
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400&family=PT+Sans&display=swap");
 
 @keyframes fade-in {
   from {
@@ -22,113 +18,11 @@
 
 html {
   background-color: var(--main-background-color);
-  font-family: Kanit;
+  font-family: "Kanit", sans-serif;
 }
 
 body {
   margin: 0;
-}
-@media only screen and (min-width: 768px) {
-  .Hero {
-    background-color: white;
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  h1.Hero-name {
-    color: black;
-    text-transform: uppercase;
-    font-size: 128px;
-    user-select: none;
-    margin: 0;
-    opacity: 0;
-    animation: fade-in 2s forwards;
-    animation-delay: 1s;
-    position: relative;
-  }
-
-  h2 {
-    opacity: 0;
-    font-size: 96px;
-    user-select: none;
-    margin: 0;
-    animation: fade-in 2s forwards;
-    animation-delay: 2s;
-    position: relative;
-  }
-
-  .hero-aboutme-button {
-    opacity: 0;
-    animation: fade-in 2s forwards;
-    animation-delay: 3s;
-    position: relative;
-    width: 150px;
-    appearance: button;
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 8px;
-    text-decoration: none;
-    color: black;
-    transition: 0.5s;
-  }
-}
-
-.Hero {
-  background-color: white;
-  text-align: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-h1.Hero-name {
-  color: black;
-  text-transform: uppercase;
-  font-size: 72px;
-  user-select: none;
-  margin: 0;
-  opacity: 0;
-  animation: fade-in 2s forwards;
-  animation-delay: 1s;
-  position: relative;
-}
-
-h2 {
-  opacity: 0;
-  font-size: 54px;
-  user-select: none;
-  margin: 0;
-  animation: fade-in 2s forwards;
-  animation-delay: 2s;
-  position: relative;
-}
-
-.hero-aboutme-button {
-  opacity: 0;
-  animation: fade-in 2s forwards;
-  animation-delay: 3s;
-  position: relative;
-  width: 150px;
-  appearance: button;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 8px;
-  text-decoration: none;
-  color: black;
-  transition: 0.5s;
-}
-
-.hero-aboutme-button:hover {
-  background-color: black;
-  color: white;
 }
 
 .navbar {
@@ -174,20 +68,4 @@ article {
   width: 80%;
   justify-content: center;
   padding-top: 50px;
-}
-
-@media only screen and (min-width: 768px) {
-  article {
-    width: 50%;
-  }
-}
-
-i {
-  font-size: 48px;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 5px;
 }
