@@ -1,0 +1,46 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+  }
+}
+
+.project-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card a {
+  text-decoration: none;
+}
+
+.project-preview-image {
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: 200;
+  color: white;
+}
+
+figure a i {
+  text-decoration: none;
+  font-size: 2em;
+  margin: 5px;
+  color: white;
+  transition: 0.5s;
+}
+
+figure a i:hover {
+  color: rgb(0, 174, 255);
+}
