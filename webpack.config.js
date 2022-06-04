@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CNAMEWebPackPlugin = require("cname-webpack-plugin");
+const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -24,6 +25,7 @@ module.exports = {
     new CNAMEWebPackPlugin({
       domain: "tomfielder.co.uk",
     }),
+    new FaviconsWebpackPlugin("./src/assets/tf-icon.png"),
   ],
   module: {
     rules: [
