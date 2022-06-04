@@ -181,3 +181,13 @@ article {
     width: 50%;
   }
 }
+
+i {
+  font-size: 48px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
