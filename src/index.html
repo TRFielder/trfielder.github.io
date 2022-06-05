@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="<%= htmlWebpackPlugin.options.metaDesc%>"
+      content=<%= htmlWebpackPlugin.options.metaDesc%>
     />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <section class="Hero" id="Home">
@@ -136,18 +137,12 @@
         <article>
           <h3>Contact</h3>
           <div class="contact-container">
-            <p class="text-block">If you want to get in contact with me, leave a message via the form below</p>
-          <form>
-            <div class="form-row">
-              <input type="text" id="contactname" name="contactname" placeholder="Name">
+            <p class="text-block">If you want to get in contact with me, here's a few ways to do so:</p>
+            <div class="contact-grid">
+              <a href="http://linkedin.com/in/tom-fielder"><i class="devicon-linkedin-plain"></i></a>
+              <a href="http://github.com/TRFielder"><i class="devicon-github-original-wordmark"></i></a>
+              <a href="mailto:me@tomfielder.co.uk"><i class="fa fa-envelope"></i></a>
             </div>
-            <div class="form-row">
-              <input type="text" id="contactemail" name="contactemail" placeholder="Email">
-            </div>
-            <div class="form-row">
-              <textarea id="contactmsg" name="contactmsg" placeholder="Message"></textarea>
-            </div>
-          </form>
         </div>
         </article>
       </section>

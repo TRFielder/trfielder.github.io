@@ -42,5 +42,5 @@ figure a i {
 }
 
 figure a i:hover {
-  color: rgb(0, 174, 255);
+  color: var(--hover-button-color);
 }
