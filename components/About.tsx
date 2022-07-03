@@ -34,13 +34,7 @@ const About: FunctionComponent = () => {
             <i className="devicon-cplusplus-plain colored"></i>
           </div>
         </div>
-        <div>
-          <p>
-            Looking for more detail? Look no further! Here&apos;s{" "}
-            <a href="TomCV.pdf"></a>
-            my CV
-          </p>
-        </div>
+
         <div>
           <h4>Outside the workplace</h4>
           <p className={styles.textBlock}>
