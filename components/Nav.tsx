@@ -1,30 +1,36 @@
 import type { NextPage } from "next";
 import { FunctionComponent } from "react";
 import styles from "../styles/Nav.module.css";
+import Link from "next/link";
 
 const Nav: FunctionComponent = () => {
   return (
     <nav className={styles.navbar}>
       <ul className={styles.navbarList}>
         <li className={styles.navbarItem}>
-          <a className={styles.navbarLink} href="#Home">
-            Home
-          </a>
+          <Link href="/#Home">
+            <a className={styles.navbarLink}>Home</a>
+          </Link>
         </li>
         <li className={styles.navbarItem}>
-          <a className={styles.navbarLink} href="#About">
-            About
-          </a>
+          <Link href="/#About">
+            <a className={styles.navbarLink}>About</a>
+          </Link>
         </li>
         <li className={styles.navbarItem}>
-          <a className={styles.navbarLink} href="#Projects">
-            Projects
-          </a>
+          <Link href="/#Projects">
+            <a className={styles.navbarLink}>Projects</a>
+          </Link>
         </li>
         <li className={styles.navbarItem}>
-          <a className={styles.navbarLink} href="#Contact">
-            Contact
-          </a>
+          <Link href="/#Contact">
+            <a className={styles.navbarLink}>Contact</a>
+          </Link>
+        </li>
+        <li className={styles.navbarItem}>
+          <Link href="/blog">
+            <a className={styles.navbarLink}>Blog</a>
+          </Link>
         </li>
       </ul>
     </nav>
