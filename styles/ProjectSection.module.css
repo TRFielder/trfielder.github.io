@@ -1,0 +1,48 @@
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+  }
+}
+
+.projectCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 400px;
+}
+
+.projectCardA {
+  text-decoration: none;
+}
+
+.projectPreviewImage {
+  max-width: 100%;
+}
+
+.figcaption {
+  text-align: center;
+  font-weight: 200;
+  color: white;
+}
+
+.figureAI {
+  text-decoration: none;
+  font-size: 2em;
+  margin: 5px;
+  color: white;
+  transition: 0.5s;
+}
+
+.figureai:hover {
+  color: var(--hover-button-color);
+}

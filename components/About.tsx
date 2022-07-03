@@ -2,6 +2,8 @@ import type { NextPage } from "next";
 import { FunctionComponent } from "react";
 import styles from "../styles/About.module.css";
 
+import MyCV from "../public/TomCV.pdf";
+
 const About: FunctionComponent = () => {
   return (
     <section id="About">
@@ -34,7 +36,19 @@ const About: FunctionComponent = () => {
             <i className="devicon-cplusplus-plain colored"></i>
           </div>
         </div>
-
+        <div className="about-me-CV">
+          <p>
+            Looking for more detail? Look no further! Here&apos;s
+            <a
+              className={styles.link}
+              href="/TomCV.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              my CV
+            </a>
+          </p>
+        </div>
         <div>
           <h4>Outside the workplace</h4>
           <p className={styles.textBlock}>

@@ -3,13 +3,17 @@ const nextConfig = {
   reactStrictMode: true,
   webpack(config) {
     config.module.rules.push({
-      test: /\.pdf$/i,
+      test: /\.(png|svg|jpg|jpeg|gif|pdf)$/i,
       use: [
         {
           loader: "file-loader",
+          options: {
+            name: "[name].[ext]",
+          },
         },
       ],
     });
+    return config;
   },
 };
 

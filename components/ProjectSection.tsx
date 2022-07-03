@@ -1,22 +1,17 @@
 import type { NextPage } from "next";
 import { FunctionComponent } from "react";
-import styles from "../styles/Nav.module.css";
+import styles from "../styles/ProjectSection.module.css";
+import Image from "next/image";
 
 const ProjectSection: FunctionComponent = () => {
   return (
     <section id="Projects">
       <article>
         <h3>Projects</h3>
-        <div className="projects-container">
-          <figure className="project-card">
+        <div className={styles.projectsContainer}>
+          <figure className={styles.projectCard}>
             <h4>Dotabeef</h4>
-            <a href="http://trfielder.github.io/dotabeef">
-              <img
-                className="project-preview-image"
-                alt="Preview of project:
-            dotabeef"
-              />
-            </a>
+            <a href="http://trfielder.github.io/dotabeef">Link</a>
             <figcaption>
               A stats tracking tool for dota 2 based on dotabuff.com, built with
               ReactJS and the Opendota API. Github:
@@ -25,11 +20,11 @@ const ProjectSection: FunctionComponent = () => {
               </a>
             </figcaption>
           </figure>
-          <figure className="project-card">
+          <figure className={styles.projectCard}>
             <h4>Where&apos;s That Pokemon?</h4>
             <a href="http://trfielder.github.io/wheres-that-pokemon">
               <img
-                className="project-preview-image"
+                className={styles.projectPreviewImage}
                 alt="Preview of project:
             Where's that Pokemon"
               />
@@ -42,11 +37,11 @@ const ProjectSection: FunctionComponent = () => {
               </a>
             </figcaption>
           </figure>
-          <figure className="project-card">
+          <figure className={styles.projectCard}>
             <h4>Memoe Cards</h4>
             <a href="http://trfielder.github.io/Memoe-cards">
               <img
-                className="project-preview-image"
+                className={styles.projectPreviewImage}
                 alt="Preview of project:
             Memoe Cards"
               />
