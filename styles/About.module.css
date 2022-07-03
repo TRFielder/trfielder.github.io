@@ -1,0 +1,43 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutContainer > * {
+  margin: 20px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .article {
+    width: 50%;
+  }
+
+  .aboutContainer {
+    flex-direction: row;
+  }
+
+  .aboutContainer > * {
+    margin: 0 20px;
+  }
+
+  .deviconSize {
+    font-size: 72px;
+  }
+
+  .textBlock {
+    font-size: 20px;
+    font-weight: 200;
+  }
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 174, 255);
+}
