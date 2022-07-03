@@ -4,7 +4,7 @@ import styles from "../styles/Hero.module.css";
 
 const Hero: FunctionComponent = () => {
   return (
-    <section className={styles.Hero}>
+    <section className={styles.Hero} id="Home">
       <h1 className={styles.HeroName}>Tom Fielder</h1>
       <h2 className={styles.HeroSubtitle}>Full Stack Web Developer</h2>
       <a href="#About" className={styles.heroButton}>

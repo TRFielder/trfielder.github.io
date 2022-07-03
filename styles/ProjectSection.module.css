@@ -17,8 +17,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  height: 400px;
 }
 
 .projectCardA {
@@ -33,16 +31,4 @@
   text-align: center;
   font-weight: 200;
   color: white;
-}
-
-.figureAI {
-  text-decoration: none;
-  font-size: 2em;
-  margin: 5px;
-  color: white;
-  transition: 0.5s;
-}
-
-.figureai:hover {
-  color: var(--hover-button-color);
 }

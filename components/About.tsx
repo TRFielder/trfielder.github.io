@@ -2,8 +2,6 @@ import type { NextPage } from "next";
 import { FunctionComponent } from "react";
 import styles from "../styles/About.module.css";
 
-import MyCV from "../public/TomCV.pdf";
-
 const About: FunctionComponent = () => {
   return (
     <section id="About">
@@ -45,7 +43,7 @@ const About: FunctionComponent = () => {
               target="_blank"
               rel="noreferrer"
             >
-              my CV
+              &nbsp;my CV
             </a>
           </p>
         </div>
