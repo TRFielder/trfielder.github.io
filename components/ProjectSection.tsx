@@ -11,6 +11,13 @@ const ProjectSection: FunctionComponent = () => {
         <h3>Projects</h3>
         <div className={styles.projectsContainer}>
           <ProjectCard
+            Name="This website!"
+            liveDemo="http://tomfielder.co.uk"
+            imgRef="/tfpersonalsite.png"
+            Description="This site is built with NextJS and Typescript as a personal challenge. Blog REST API is hosted on heroku."
+            repoUrl="http://github.com/TRFielder/tomfielder.co.uk/"
+          />
+          <ProjectCard
             Name="Dotabeef"
             liveDemo="http://trfielder.github.io/dotabeef"
             imgRef="/dotabeef-preview.png"

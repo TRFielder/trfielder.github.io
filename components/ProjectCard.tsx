@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectDetails> = (props: ProjectDetails) => {
         />
       </a>
       <figcaption className={styles.figcaption}>
-        {props.Description + `Github: `}
+        {props.Description + ` Github: `}
         <a href={props.repoUrl}>
           <i className="devicon-github-original" role="link"></i>
         </a>
