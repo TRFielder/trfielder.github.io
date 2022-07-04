@@ -24,9 +24,7 @@ a {
   text-decoration: none;
 }
 
-#About,
-#Projects,
-#Contact {
+section {
   display: flex;
   flex-direction: column;
   align-items: center;
