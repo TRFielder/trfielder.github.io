@@ -2,13 +2,13 @@ import type { NextPage } from "next";
 import { FunctionComponent } from "react";
 import styles from "../styles/ProjectSection.module.css";
 
-interface ProjectDetails {
+type ProjectDetails = {
   Name: string;
   liveDemo: string;
   imgRef: string;
   Description: string;
   repoUrl: string;
-}
+};
 
 const ProjectCard: React.FC<ProjectDetails> = (props: ProjectDetails) => {
   return (
