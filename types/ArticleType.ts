@@ -1,12 +1,12 @@
 import AuthorType from "./AuthorType";
 
 type ArticleType = {
-  _id: string;
+  _id?: string;
   title: string;
   author: AuthorType;
   text: string;
-  comments: Array<string>;
-  published: boolean;
+  comments?: Array<string>;
+  published?: boolean;
 };
 
 export default ArticleType;
