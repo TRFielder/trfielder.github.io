@@ -11,35 +11,35 @@ const ProjectSection: FunctionComponent = () => {
         <h3>Projects</h3>
         <div className={styles.projectsContainer}>
           <ProjectCard
-            Name="This website!"
+            name="This website!"
             liveDemo="http://tomfielder.co.uk"
             imgRef="/tfpersonalsite.png"
-            Description="This site is built with NextJS and Typescript as a personal challenge. Blog REST API is hosted on heroku."
-            repoUrl="http://github.com/TRFielder/tomfielder.co.uk/"
+            description="This site is built with NextJS and Typescript as a personal challenge. Blog REST API is hosted on heroku."
+            repository="http://github.com/TRFielder/tomfielder.co.uk/"
           />
           <ProjectCard
-            Name="Dotabeef"
+            name="Dotabeef"
             liveDemo="http://trfielder.github.io/dotabeef"
             imgRef="/dotabeef-preview.png"
-            Description="A stats tracking tool for dota 2 based on dotabuff.com, built with
+            description="A stats tracking tool for dota 2 based on dotabuff.com, built with
             ReactJS and the Opendota API."
-            repoUrl="http://github.com/TRFielder/dotabeef"
+            repository="http://github.com/TRFielder/dotabeef"
           />
           <ProjectCard
-            Name="Where's That Pokemon?"
+            name="Where's That Pokemon?"
             liveDemo="http://trfielder.github.io/wheres-that-pokemon"
             imgRef="/poke-preview.png"
-            Description='A "Where&apos;s Wally" style game built with ReactJS and
+            description='A "Where&apos;s Wally" style game built with ReactJS and
             Firebase to manage a global leaderboard.'
-            repoUrl="http://github.com/TRFielder/wheres-that-pokemon"
+            repository="http://github.com/TRFielder/wheres-that-pokemon"
           />
           <ProjectCard
-            Name="Memoe Cards"
+            name="Memoe Cards"
             liveDemo="http://trfielder.github.io/memoe-cards"
             imgRef="/memoe-preview.png"
-            Description=" A memory game built with ReactJS and a community API for Genshin
+            description=" A memory game built with ReactJS and a community API for Genshin
             Impact game data."
-            repoUrl="http://github.com/TRFielder/memoe-cards"
+            repository="http://github.com/TRFielder/memoe-cards"
           />
         </div>
       </article>
