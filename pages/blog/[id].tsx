@@ -4,6 +4,7 @@ import { getAllArticles, getArticleByID } from "../../utils/api";
 //Component imports
 import Head from "next/head";
 import Nav from "../../components/Nav";
+import BlogPost from "../../components/BlogPost";
 
 // Type imports
 import type { NextPage } from "next";
@@ -22,15 +23,7 @@ const Article: NextPage<ArticleType> = (props: ArticleType) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <section>
-        <article>
-          <h1>{props.title}</h1>
-          <p>
-            Author: {props.author.first_name} {props.author.last_name}
-          </p>
-          <p className={styles.blogText}>{props.text}</p>
-        </article>
-      </section>
+      <BlogPost title={props.title} author={props.author} text={props.text} />
     </>
   );
 };
