@@ -26,10 +26,10 @@ const Blog: NextPage<AuthorType> = (props: AuthorType) => {
         <article>
           <h1>Sample Articles</h1>
           <Link href={`/blog/62c0d6508e2741038fbaa90f`}>
-            <a>{props.titles[0]}</a>
+            <a>Sample Article Two</a>
           </Link>
           <Link href={`/blog/62c330bacf373374e5a22f8f`}>
-            <a>{props.titles[1]}</a>
+            <a>Sample Article One</a>
           </Link>
         </article>
       </section>
@@ -41,16 +41,11 @@ export default Blog;
 
 export async function getStaticProps({}) {
   const author = await getAuthorByID("62c0b34083772050c22eaba7");
-  const articles = await getAllArticles();
-  const titles = articles.map((article) => {
-    return article.title;
-  });
   return {
     props: {
       username: author.username,
       first_name: author.first_name,
       last_name: author.last_name,
-      titles,
     },
   };
 }
