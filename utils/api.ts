@@ -22,7 +22,7 @@ const getAllArticles = async () => {
   );
   const searchResult = await response.json();
 
-  return searchResult.allArticles;
+  return searchResult;
 };
 
 export { getAuthorByID, getArticleByID, getAllArticles };
