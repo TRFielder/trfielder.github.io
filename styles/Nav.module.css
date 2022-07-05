@@ -17,6 +17,7 @@
 
 .navbarItem {
   margin: 5px;
+  user-select: none;
 }
 
 .navbarLink {
