@@ -27,15 +27,19 @@ const Blog: NextPage<ArticleArrayType> = (props: ArticleArrayType) => {
       <section>
         <article>
           <main className={styles.blogPreviewList}>
-            {props.articles.map((article) => (
-              <BlogPostPreview
-                key={article._id}
-                _id={article._id}
-                author={article.author}
-                title={article.title}
-                text={article.text}
-              />
-            ))}
+            {props.articles.map((article) =>
+              article.published ? (
+                <BlogPostPreview
+                  key={article._id}
+                  _id={article._id}
+                  author={article.author}
+                  title={article.title}
+                  text={article.text}
+                />
+              ) : (
+                ""
+              ),
+            )}
           </main>
         </article>
       </section>
@@ -45,7 +49,7 @@ const Blog: NextPage<ArticleArrayType> = (props: ArticleArrayType) => {
 
 export default Blog;
 
-export async function getStaticProps({}) {
+export async function getServerSideProps({}) {
   const articles = await getAllArticles();
   return {
     props: {
