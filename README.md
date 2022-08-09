@@ -6,6 +6,8 @@ The main site uses Next.js for all front end content, and is served by a REST AP
 
 The database holds information for blog posts which will be published on my site, managed by a CMS I have developed for that purpose.
 
+Blog pages are managed using getStaticPaths
+
 [**API Repository**](https://github.com/TRFielder/blog-api/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
