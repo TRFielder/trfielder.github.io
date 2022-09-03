@@ -1,15 +1,24 @@
-import type { NextPage } from "next";
-import { FunctionComponent } from "react";
-import styles from "../styles/ProjectSection.module.css";
-import Image from "next/image";
-import ProjectCard from "./ProjectCard";
+import type { NextPage } from 'next';
+import { FunctionComponent } from 'react';
+import styles from '../styles/ProjectSection.module.css';
+import Image from 'next/image';
+import ProjectCard from './ProjectCard';
+import Warning from './Warning';
 
 const ProjectSection: FunctionComponent = () => {
   return (
     <section id="Projects">
       <article>
         <h3>Projects</h3>
+        <Warning />
         <div className={styles.projectsContainer}>
+          <ProjectCard
+            name="Odinbook"
+            liveDemo="https://trfielder.github.io/odinbook"
+            imgRef="/odinbook.png"
+            description="My current project (Work in progress) - a full stack application using Typescript (React), TailwindCSS and Node.js to recreate the functionality of a popular social networking site"
+            repository="http://github.com/TRFielder/odinbook/"
+          />
           <ProjectCard
             name="This website!"
             liveDemo="http://tomfielder.co.uk"
