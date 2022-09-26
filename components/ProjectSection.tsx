@@ -48,7 +48,7 @@ const ProjectSection: FunctionComponent = () => {
             imgRef="/memoe-preview.png"
             description=" A memory game built with ReactJS and a community API for Genshin
             Impact game data."
-            repository="http://github.com/TRFielder/memoe-cards"
+            repository="http://github.com/TRFielder/Memoe-cards"
           />
         </div>
       </article>
