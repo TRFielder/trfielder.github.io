@@ -44,7 +44,7 @@ const ProjectSection: FunctionComponent = () => {
           />
           <ProjectCard
             name="Memoe Cards"
-            liveDemo="http://trfielder.github.io/memoe-cards"
+            liveDemo="http://trfielder.github.io/Memoe-cards"
             imgRef="/memoe-preview.png"
             description=" A memory game built with ReactJS and a community API for Genshin
             Impact game data."
