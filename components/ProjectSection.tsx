@@ -10,7 +10,6 @@ const ProjectSection: FunctionComponent = () => {
     <section id="Projects">
       <article>
         <h3>Projects</h3>
-        <Warning />
         <div className={styles.projectsContainer}>
           <ProjectCard
             name="Odinbook"
