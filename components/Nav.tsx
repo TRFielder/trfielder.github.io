@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
-import { FunctionComponent } from "react";
-import styles from "../styles/Nav.module.css";
-import Link from "next/link";
+import type { NextPage } from 'next';
+import { FunctionComponent } from 'react';
+import styles from '../styles/Nav.module.css';
+import Link from 'next/link';
 
 const Nav: FunctionComponent = () => {
   return (
@@ -25,11 +25,6 @@ const Nav: FunctionComponent = () => {
         <li className={styles.navbarItem}>
           <Link href="/#Contact">
             <a className={styles.navbarLink}>Contact</a>
-          </Link>
-        </li>
-        <li className={styles.navbarItem}>
-          <Link href="/blog">
-            <a className={styles.navbarLink}>Blog</a>
           </Link>
         </li>
       </ul>
