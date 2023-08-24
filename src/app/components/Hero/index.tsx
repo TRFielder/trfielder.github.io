@@ -4,10 +4,10 @@ const Hero = () => {
       className="bg-white text-center h-screen flex flex-col items-center justify-center"
       id="Home"
     >
-      <h1 className="text-black text-7xl md:text-9xl uppercase select-none m-0 opacity-0 relative animate-fade-in animation-delay-1000 block my-8">
+      <h1 className="text-black text-7xl md:text-9xl uppercase select-none m-0 opacity-0 relative animate-fade-in animation-delay-1000 block my-8 font-medium">
         Tom Fielder
       </h1>
-      <h2 className="opacity-0 text-6xl md:text-8xl select-none m-0 relative animate-fade-in animation-delay-2000 block my-3">
+      <h2 className="opacity-0 text-6xl md:text-8xl select-none m-0 relative animate-fade-in animation-delay-2000 block my-3 font-medium">
         Full Stack Web Developer
       </h2>
       <a

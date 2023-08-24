@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Kanit } from "next/font/google";
 
-const kanit = Kanit({ weight: ["500"], subsets: ["latin"] });
+const kanit = Kanit({ weight: ["200", "300", "500"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Tom Fielder",
