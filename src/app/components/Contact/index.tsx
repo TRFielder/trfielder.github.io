@@ -7,7 +7,7 @@ const Contact = () => {
       className="flex flex-col items-center font-extralight text-white"
     >
       <h3 className="text-2xl font-semibold mb-8">Contact</h3>
-      <div className="flex flex-row items-center gap-8">
+      <div className="flex flex-row items-center gap-8 w-2/3 justify-center">
         <a href="http://linkedin.com/in/tom-fielder">
           <Image
             alt=""
