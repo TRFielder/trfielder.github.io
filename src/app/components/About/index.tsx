@@ -5,8 +5,8 @@ const About = () => {
 				<h3 className="text-2xl font-semibold mb-8">About Me</h3>
 				<div className="flex flex-col items-center">
 					<p className="my-5 mx-0 text-xl text-center">
-						I am currently working as a front end developer as part of a growing team
-						building a web-based platform for scientific applications.
+						I am currently working as a software engineer as part of a team working on
+						software to support the primary realisation of mass for the UK
 					</p>
 
 					<p className="my-5 mx-0 text-xl text-center">

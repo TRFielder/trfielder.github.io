@@ -7,7 +7,7 @@ const Contact = () => {
 			<div className="flex flex-row items-center gap-8 w-2/3 justify-center">
 				<a href="http://linkedin.com/in/tom-fielder">
 					<Image
-						alt=""
+						alt="LinkedIn"
 						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
 						width={70}
 						height={70}

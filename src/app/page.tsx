@@ -1,15 +1,17 @@
 import Hero from "@/app/components/Hero";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills/page";
 
 export default function Home() {
 	return (
-		<div>
+		<>
 			<Hero />
 			<div className="h-screen flex flex-col gap-12">
 				<About />
+				<Skills />
 				<Contact />
 			</div>
-		</div>
+		</>
 	);
 }

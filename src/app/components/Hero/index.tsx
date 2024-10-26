@@ -8,7 +8,7 @@ const Hero = () => {
 				Tom Fielder
 			</h1>
 			<h2 className="opacity-0 text-6xl md:text-8xl select-none m-0 relative animate-fade-in animation-delay-2000 block my-3 font-medium">
-				Full Stack Web Developer
+				Software Engineer
 			</h2>
 			<a
 				href="#About"
