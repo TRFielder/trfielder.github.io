@@ -14,9 +14,9 @@ const Contact = () => {
 					/>
 				</a>
 				<p>
-					Or just drop an email to{" "}
-					<a className="hover:text-blue-400" href="mailto:me@tomfielder.co.uk">
-						me@tomfielder.co.uk
+					Or just drop me an{" "}
+					<a className="hover:text-blue-400" href="mailto:tom.fielder97@gmail.com">
+						email
 					</a>
 				</p>
 			</div>

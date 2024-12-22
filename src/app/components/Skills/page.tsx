@@ -3,9 +3,9 @@ import Image from "next/image";
 const Skills = () => {
 	return (
 		<section id="About" className="flex flex-col items-center font-extralight">
-			<article className="text-white flex flex-col items-center justify-center py-12 w-2/3">
+			<article className="text-white flex flex-col items-center justify-center w-2/3">
 				<h3 className="text-2xl font-semibold mb-8">My tools</h3>
-				<div className="grid grid-cols-3 gap-4">
+				<div className="grid grid-cols-3 gap-8">
 					<Image
 						src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
 						width={80}
