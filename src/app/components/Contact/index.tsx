@@ -14,8 +14,18 @@ const Contact = () => {
 					/>
 				</a>
 				<p>
-					Or just drop me an{" "}
-					<a className="hover:text-blue-400" href="mailto:tom.fielder97@gmail.com">
+					Check out my{" "}
+					<a
+						className="hover:text-blue-400 font-bold"
+						href="https://github.com/TRFielder/"
+					>
+						GitHub
+					</a>
+					, or just drop me an{" "}
+					<a
+						className="hover:text-blue-400 font-bold"
+						href="mailto:tom.fielder97@gmail.com"
+					>
 						email
 					</a>
 				</p>
